@@ -9,6 +9,7 @@ ListifyApp is a dynamic mobile application designed for auction listings, user p
 - Bid on auction items
 - Save items to your watchlist
 - In-app chat with item listers
+- Push Notifications using FCM
 - Google Maps integration for item locations
 - Camera functionality to capture item images
 
