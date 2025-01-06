@@ -1,0 +1,64 @@
+ListifyApp/ 
+├── 📁 src/
+│   ├── 📁 assets/
+│   │   ├── 📁 images/
+│   │   │   └── logo.png
+│   │   └── 📁 icons/
+│   │
+│   ├── 📁 data/
+│   │   ├── categories.js
+│   │   ├── users.js         # User profiles and auth data
+│   │   ├── items.js          # Auction items data
+│   │   ├── bids.js           # Bidding history
+│   │   └── chats.js│   │   └── watchlist.js      # Saved items data
+│   │
+│   ├── 📁 components/
+│   │   ├── Header.js           # Custom header with logo
+│   │   ├── SearchBar.js        # Reusable search component
+│   │   ├── ItemCard.js         # Card component for auction items
+│   │   ├── LoadingSpinner.js   # Loading indicator
+│   │   └── CustomButton.js     # Reusable button component
+│   │   ├── SearchBar.js   # Loading indicator
+│   │   └── EmptyList.js     # Reusable button component
+│   │
+│   ├── 📁 context/
+│   │   └── AuthContext.js      # Handle user authentication state
+│   │   └── ProfileContext.js
+│   │
+│   ├── 📁 screens/
+│   │   ├── SplashScreen.js
+│   │   ├── AuthScreens/
+│   │   │   ├── Login.js
+│   │   │   └── Register.js
+│   │   │
+│   │   ├── MainScreens/
+│   │   │   ├── Home.js         # Main auction listings(Earlier Named as Search.js)
+│   │   │   ├── Chat.js       # Chat with the auction lister
+│   │   │   ├── AddItem.js      # Create new auction listing
+│   │   │   ├── Profile.js      # User profile(Previously EditProfile.js)
+│   │   │   └── Watchlist.js    # Saved/watched items
+│   │   │
+│   │   ├── ChatScreens/
+│   │   │   ├── ChatDetails.js        
+│   │   │
+│   │   │
+│   │   ├── HomeScreens/
+│   │       ├── ItemBid.js      
+│   │       ├── ItemDetails.js     
+│   │   
+│   │
+│   ├── 📁 navigation/
+│   │   ├── AppNavigator.js     # Main navigation setup
+│   │   └── TabNavigator.js     # Bottom tab navigation
+│   │   ├── ChatStack.js   
+│   │   └── HomeStack.js 
+│   │
+│   ├── 📁 utils/
+│   │   ├── asyncStorage.js     # AsyncStorage functions
+│   │   ├── dataHandlers.js     # Functions to handle JSON data
+│   │   └── notifications.js    # Firebase notifications setup
+│   │   └── FirebaseNotificationHandler.js        # Firebase configuration
+│   │
+│
+├── App.js
+└── package.json   
